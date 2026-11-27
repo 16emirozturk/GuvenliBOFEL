@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets
+.streamlit/secrets.toml
+.env
+
+# Local SQLite database and transient files
+*.db
+*.db-wal
+*.db-shm
+*.bak
+*.pre-restore.bak
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
